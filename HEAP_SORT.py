@@ -5,8 +5,6 @@ import time
 sys.stdin = open('SORT.INP', 'r')
 sys.stdout = open('HEAPSORT.OUT', 'w')
 
-import sys
-
 def heapify(arr, n, i):
     
     largest = i
@@ -48,4 +46,5 @@ for i in range(nTEST):
     end = time.perf_counter()
     
     print(round(end - start, 6))
+
 
