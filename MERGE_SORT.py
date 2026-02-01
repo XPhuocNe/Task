@@ -5,8 +5,6 @@ import time
 sys.stdin = open('SORT.INP', 'r')
 sys.stdout = open('MERGESORT.OUT', 'w')
 
-import sys
-
 def MergeSort(arr):
     if len(arr) <= 1:
         return arr
@@ -46,4 +44,5 @@ for i in range(nTEST):
     end = time.perf_counter()
     
     print(round(end - start, 6))
+
 
